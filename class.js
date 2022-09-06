@@ -9,6 +9,10 @@ class Person {
   speak() {
     console.log(`${this.name}`);
   }
+
+  speakAge() {
+    console.log(`${this.age}`);
+  }
 }
 
 const peter = new Person("peter", 20);
